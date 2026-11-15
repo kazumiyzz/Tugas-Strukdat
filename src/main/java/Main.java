@@ -6,7 +6,7 @@ public static void main(String[] args) {
 
     PutusanService service = new PutusanService();
     try {
-        String csvPath = "Data/Putusan-50.csv";
+        String csvPath = "Data/Putusan50.csv";
         service.loadCsv(csvPath);
         System.out.println("[INFO] Berhasil memuat data. Total record dalam struktur utama: " + service.getRepository().size());
 
